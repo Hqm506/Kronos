@@ -11,44 +11,44 @@
     <link rel="stylesheet" href="dist/css/mycss.css">
 </head>
 
-<body>
+<body style="background-color: #121212; color: #ffffff;">
+
     <!-- Navegación -->
-   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top border-bottom border-secondary" style="background-color: #121212 !important;">
-  <div class="container">
-    
-    
-    <a class="navbar-brand fw-bold text-uppercase" href="index.html" style="color: #c5a059; letter-spacing: 2px;">
-      Kronos
-    </a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top border-bottom border-secondary" style="background-color: #121212 !important;">
+        <div class="container">
+            
+            <a class="navbar-brand fw-bold text-uppercase" href="index.html" style="color: #c5a059; letter-spacing: 2px;">
+                Kronos
+            </a>
 
-    <!--Hamburguesa-->
-    <button class="navbar-toggler border-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+            <!--Hamburguesa-->
+            <button class="navbar-toggler border-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-   <!-- menú -->
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav align-items-lg-center gap-3">
-        <li class="nav-item">
-          <a class="nav-link text-light active" href="index.html">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="pages/store.html">Galería</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="pages/acerca_de.html">Acerca De</a>
-        </li>
-      </ul>
-    </div>
+            <!-- menú -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-lg-center gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link text-light active" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="pages/store.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="pages/acerca_de.html">Acerca De</a>
+                    </li>
+                </ul>
+            </div>
 
-  </div>
-</nav>
+        </div>
+    </nav>
 
     <!-- Contenido Principal -->
-    <main>
+    <main class="pt-5">
         <!-- Header -->
         <!-- Carrusel -->
-        <header class="header pt-7">
+        <header class="header pt-4">
             <div class="container-xl">
                 <div class="row align-items-center">
         
@@ -95,20 +95,22 @@
                     <!-- Texto y botón -->
                     <div class="col-md-6">
                         <div class="text-container p-4 d-flex flex-column justify-content-center h-100 mb-5">
-
-                            <h1 class="display-3">Precisión que define tu tiempo</h1>
+                            <h1 class="display-3 fw-bold" style="font-family: Georgia, serif;">Precisión que define tu tiempo</h1>
                             <p class="lead text-secondary">
                                 Descubre la fusión perfecta entre la alta relojería y la resistencia deportiva. Diseñados para quienes exigen
                                 excelencia y elegancia en cada segundo de su día.
                             </p>
-                            <a href="pages/store.html" class="btn btn-outline-light text-uppercase px-4 py-2" style="letter-spacing: 1px; font-size: 0.9rem;">Ver Colección</a>
+                            <div>
+                                <a href="pages/store.html" class="btn btn-outline-light text-uppercase px-4 py-2" style="letter-spacing: 1px; font-size: 0.9rem;">Ver Colección</a>
+                            </div>
+                        </div>
                     </div>
-        
+
                 </div>
             </div>
         </header>
 
-        
+        <!-- Iconos de Beneficios -->
         <section class="py-4" style="background-color: #161616;">
             <div class="container-xl">
                 <div class="row text-center g-4">
@@ -117,7 +119,7 @@
                         <div class="d-flex align-items-center justify-content-center gap-3">
                             <span class="fs-3 text-warning">🚚</span>
                             <div class="text-start">
-                                <h6 class="mb-0 fw-bold">Envío Asegurado</h6>
+                                <h6 class="mb-0 fw-bold text-white">Envío Asegurado</h6>
                                 <small class="text-secondary">Entrega expréss a nivel nacional</small>
                             </div>
                         </div>
@@ -127,7 +129,7 @@
                         <div class="d-flex align-items-center justify-content-center gap-3">
                             <span class="fs-3 text-warning">🛡️</span>
                             <div class="text-start">
-                                <h6 class="mb-0 fw-bold">Garantía de 2 Años</h6>
+                                <h6 class="mb-0 fw-bold text-white">Garantía de 2 Años</h6>
                                 <small class="text-secondary">Cobertura internacional</small>
                             </div>
                         </div>
@@ -137,7 +139,7 @@
                         <div class="d-flex align-items-center justify-content-center gap-3">
                             <span class="fs-3 text-warning">✨</span>
                             <div class="text-start">
-                                <h6 class="mb-0 fw-bold">100% Auténtico</h6>
+                                <h6 class="mb-0 fw-bold text-white">100% Auténtico</h6>
                                 <small class="text-secondary">Certificado de alta relojería</small>
                             </div>
                         </div>
@@ -147,26 +149,25 @@
             </div>
         </section>
 
-        <section class="testimonial bg-light text-secondary p-5">
-            <div class="container">
-                <p class="display-6 text-center fst-italic">"Llevar este reloj cambió por completo mi estilo; es imponente para el día a día y resiste perfectamente mis entrenamientos."</p>
-                <p class="text-center lead pt-2 fw-bold">Carlos Mendoza — Coleccionista y Atleta</p>
+        <!-- Testimonio (Adaptado a modo oscuro) -->
+        <section class="testimonial text-light p-5" style="background-color: #121212;">
+            <div class="container py-3">
+                <p class="display-6 text-center fst-italic text-white" style="font-family: Georgia, serif;">"Llevar este reloj cambió por completo mi estilo; es imponente para el día a día y resiste perfectamente mis entrenamientos."</p>
+                <p class="text-center lead pt-2 fw-bold" style="color: #c5a059;">Carlos Mendoza — Coleccionista y Atleta</p>
             </div>
         </section>
 
-        <!-- Features/cards de información extra-->
+        <!-- Features / Cards de información extra -->
         <div class="container my-5">
             <div class="row g-4">
         
                 <!-- Card 1: Diseño Exclusivo -->
                 <div class="col-md-4">
                     <div class="card bg-dark text-white border-secondary h-100 shadow">
-                        <img src="dist/img/diseñounico.jpg" class="card-img-top img-fluid"
-                            alt="Diseño Exclusivo Kronos">
+                        <img src="dist/img/diseñounico.jpg" class="card-img-top img-fluid" alt="Diseño Exclusivo Kronos">
                         <div class="card-body">
-                            <h3 class="card-title h5 font-weight-bold" style="color: #c5a059;">Diseño Exclusivo</h3>
-                            <p class="card-text text-light">Piezas artesanales que combinan la elegancia clásica con un estilo
-                                moderno y sofisticado, pensadas para destacar en cualquier ocasión.</p>
+                            <h3 class="card-title h5 fw-bold" style="color: #c5a059; font-family: Georgia, serif;">Diseño Exclusivo</h3>
+                            <p class="card-text text-secondary">Piezas artesanales que combinan la elegancia clásica con un estilo moderno y sofisticado, pensadas para destacar en cualquier ocasión.</p>
                         </div>
                     </div>
                 </div>
@@ -174,12 +175,10 @@
                 <!-- Card 2: Alta Resistencia -->
                 <div class="col-md-4">
                     <div class="card bg-dark text-white border-secondary h-100 shadow">
-                        <img src="dist/img/altaresistencia.jpg" class="card-img-top img-fluid"
-                            alt="Alta Resistencia Kronos">
+                        <img src="dist/img/altaresistencia.jpg" class="card-img-top img-fluid" alt="Alta Resistencia Kronos">
                         <div class="card-body">
-                            <h3 class="card-title h5 font-weight-bold" style="color: #c5a059;">Alta Resistencia</h3>
-                            <p class="card-text text-light">Construidos con materiales de grado aeroespacial, cristal de zafiro
-                                antirreflejos y resistencia superior para acompañarte en tu ritmo diario.</p>
+                            <h3 class="card-title h5 fw-bold" style="color: #c5a059; font-family: Georgia, serif;">Alta Resistencia</h3>
+                            <p class="card-text text-secondary">Construidos con materiales de grado aeroespacial, cristal de zafiro antirreflejos y resistencia superior para acompañarte en tu ritmo diario.</p>
                         </div>
                     </div>
                 </div>
@@ -187,12 +186,10 @@
                 <!-- Card 3: Precisión Suiza -->
                 <div class="col-md-4">
                     <div class="card bg-dark text-white border-secondary h-100 shadow">
-                        <img src="dist/img/presicion.jpg" class="card-img-top img-fluid"
-                            alt="Precisión Suiza Kronos">
+                        <img src="dist/img/presicion.jpg" class="card-img-top img-fluid" alt="Precisión Suiza Kronos">
                         <div class="card-body">
-                            <h3 class="card-title h5 font-weight-bold" style="color: #c5a059;">Precisión Suiza</h3>
-                            <p class="card-text text-light">Mecanismos de alta precisión que garantizan una exactitud impecable,
-                                respaldados por la máxima exigencia en ingeniería horaria.</p>
+                            <h3 class="card-title h5 fw-bold" style="color: #c5a059; font-family: Georgia, serif;">Precisión Suiza</h3>
+                            <p class="card-text text-secondary">Mecanismos de alta precisión que garantizan una exactitud impecable, respaldados por la máxima exigencia en ingeniería horaria.</p>
                         </div>
                     </div>
                 </div>
@@ -200,12 +197,12 @@
             </div>
         </div>
 
-        <!-- Formulario  -->
+        <!-- Formulario de Boletín -->
         <section class="py-5 text-center" style="background-color: #161616; border-top: 1px solid #2a2a2a;">
             <div class="container py-4">
                 <div class="row justify-content-center">
                     <div class="col-md-8 col-lg-6">
-                        <h3 class="fw-bold text-white mb-3">Únete al Boletín Kronos</h3>
+                        <h3 class="fw-bold text-white mb-3" style="font-family: Georgia, serif;">Únete al Boletín Kronos</h3>
                         <p class="text-secondary mb-4">
                             Recibe acceso prioritario a ediciones limitadas, lanzamientos exclusivos y eventos privados de alta relojería.
                         </p>
@@ -220,10 +217,9 @@
         </section>
     </main>
 
-
     <!-- Footer -->
-    <footer class="text-center py-4 text-white" style="background-color: #121212;">
-        <p class="mb-0">copyright © Kronos 2026</p>
+    <footer class="text-center py-4 text-secondary border-top border-secondary" style="background-color: #121212;">
+        <p class="mb-0 small">Copyright &copy; Kronos 2026</p>
     </footer>
 
     <script src="dist/js/bootstrap.min.js"></script>
