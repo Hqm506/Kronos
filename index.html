@@ -13,27 +13,36 @@
 
 <body>
     <!-- Navegación -->
-    <nav class="navbar navbar-expand-lg mt-4">
-        <div class="container">
-            <a href="index.html" class="navbar-brand fs-3">Kronos</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="pages/store.html" class="nav-link">Galeria</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="pages/acerca_de.html" class="nav-link">Acerca De</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top border-bottom border-secondary" style="background-color: #121212 !important;">
+  <div class="container">
+    
+    
+    <a class="navbar-brand fw-bold text-uppercase" href="index.html" style="color: #c5a059; letter-spacing: 2px;">
+      Kronos
+    </a>
+
+    <!--Hamburguesa-->
+    <button class="navbar-toggler border-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+   <!-- menú -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav align-items-lg-center gap-3">
+        <li class="nav-item">
+          <a class="nav-link text-light active" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="pages/store.html">Galería</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="pages/acerca_de.html">Acerca De</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
 
     <!-- Contenido Principal -->
     <main>
