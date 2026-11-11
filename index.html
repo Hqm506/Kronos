@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kronos | Inicio</title>
+    
+    <link rel="icon" type="image/ico" href="dist/img/favicon/favicon.ico">
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/mycss.css">
+</head>
+
+<body>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg mt-4">
+        <div class="container">
+            <a href="index.html" class="navbar-brand fs-3">Kronos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="pages/store.html" class="nav-link">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="pages/acerca_de.html" class="nav-link">Acerca De</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <main>
+        <!-- Header -->
+        <!-- Carrusel -->
+        <header class="header pt-7">
+            <div class="container-xl">
+                <div class="row align-items-center">
+        
+                    <!-- Columna izquierda: Carrusel de imágenes -->
+                    <div class="col-md-6 mb-5">
+                        <div id="headerCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <!-- Flechas -->
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#headerCarousel" data-bs-slide-to="0" class="active"
+                                    aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#headerCarousel" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#headerCarousel" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+        
+                            <!-- Imágenes del carrusel -->
+                            <div class="carousel-inner rounded-4 shadow-sm">
+                                <div class="carousel-item active">
+                                    <img src="dist/img/Reloj1.jpg" class="d-block w-100" alt="Vista frontal del gadget">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="dist/img/Reloj2.jpg" class="d-block w-100" alt="Vista lateral del gadget">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="dist/img/reloj3.jpg" class="d-block w-100" alt="Accesorios del gadget">
+                                </div>
+                            </div>
+        
+                            <!-- Controles de navegación -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#headerCarousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#headerCarousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
+                    </div>
+        
+                    <!-- Columna derecha: Texto y botón -->
+                    <div class="col-md-6">
+                        <div class="text-container p-4 d-flex flex-column justify-content-center h-100 mb-5">
+                            <h1 class="display-3">Precisión que define tu tiempo</h1>
+                            <p class="lead text-secondary">
+                                Descubre la fusión perfecta entre la alta relojería y la resistencia deportiva. Diseñados para quienes exigen
+                                excelencia y elegancia en cada segundo de su día.
+                            </p>
+                            <a href="pages/store.html" class="btn btn-outline-light text-uppercase px-4 py-2" style="letter-spacing: 1px; font-size: 0.9rem;">Ver Colección</a>
+                    </div>
+        
+                </div>
+            </div>
+        </header>
+
+        
+        <section class="py-4" style="background-color: #161616;">
+            <div class="container-xl">
+                <div class="row text-center g-4">
+        
+                    <div class="col-md-4">
+                        <div class="d-flex align-items-center justify-content-center gap-3">
+                            <span class="fs-3 text-warning">🚚</span>
+                            <div class="text-start">
+                                <h6 class="mb-0 fw-bold">Envío Asegurado</h6>
+                                <small class="text-secondary">Entrega expréss a nivel nacional</small>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-4">
+                        <div class="d-flex align-items-center justify-content-center gap-3">
+                            <span class="fs-3 text-warning">🛡️</span>
+                            <div class="text-start">
+                                <h6 class="mb-0 fw-bold">Garantía de 2 Años</h6>
+                                <small class="text-secondary">Cobertura internacional</small>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-4">
+                        <div class="d-flex align-items-center justify-content-center gap-3">
+                            <span class="fs-3 text-warning">✨</span>
+                            <div class="text-start">
+                                <h6 class="mb-0 fw-bold">100% Auténtico</h6>
+                                <small class="text-secondary">Certificado de alta relojería</small>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonial bg-light text-secondary p-5">
+            <div class="container">
+                <p class="display-6 text-center fst-italic">"Llevar este reloj cambió por completo mi estilo; es imponente para el día a día y resiste perfectamente mis entrenamientos."</p>
+                <p class="text-center lead pt-2 fw-bold">Carlos Mendoza — Coleccionista y Atleta</p>
+            </div>
+        </section>
+
+        <!-- Features/cards de información extra-->
+        <div id="features" class="py-5">
+            <div class="container">
+                <div class="row g-5 py-5">
+                    <div class="col-md-4 feature-card">
+                        <h5 class="fw-bold">Diseño Exclusivo</h5>
+                        <p class="text-muted">
+                            Piezas artesanales que combinan la elegancia clásica con un estilo moderno y sofisticado, pensadas
+                            para destacar en cualquier ocasión.
+                        </p>
+                    </div>
+                    <div class="col-md-4 feature-card">
+                        <h5 class="fw-bold">Alta Resistencia</h5>
+                        <p class="text-muted">
+                            Construidos con materiales de grado aeroespacial, cristal de zafiro antirreflejos y resistencia
+                            superior para acompañarte en tu ritmo diario.
+                        </p>
+                    </div>
+                    <div class="col-md-4 feature-card">
+                        <h5 class="fw-bold">Precisión Suiza</h5>
+                        <p class="text-muted">
+                            Mecanismos de alta precisión que garantizan una exactitud impecable, respaldados por la máxima
+                            exigencia en ingeniería horaria.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formulario  -->
+        <section class="py-5 text-center" style="background-color: #161616; border-top: 1px solid #2a2a2a;">
+            <div class="container py-4">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 col-lg-6">
+                        <h3 class="fw-bold text-white mb-3">Únete al Boletín Kronos</h3>
+                        <p class="text-secondary mb-4">
+                            Recibe acceso prioritario a ediciones limitadas, lanzamientos exclusivos y eventos privados de alta relojería.
+                        </p>
+                        <form class="d-flex gap-2 justify-content-center">
+                            <input type="email" class="form-control bg-dark text-white border-secondary"
+                                placeholder="Tu correo electrónico" style="max-width: 320px;" required>
+                            <button type="submit" class="btn btn-outline-secondary">Suscribirme</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="text-center py-4 text-white" style="background-color: #121212;">
+        <p class="mb-0">copyright © Kronos 2026</p>
+    </footer>
+
+    <script src="dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
